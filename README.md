@@ -33,7 +33,7 @@ Console.WriteLine($"ds[0].dt contains {ds.Tables[0].Rows.Count} rows.");
 
 foreach(System.Data.DataRow row in ds.Tables[0].Rows)
 
-    Console.WriteLine($"ds[0].dt.Row col0 = {row.ItemArray[0]}, col1 = {row.ItemArray[1]}, col2 = {row.ItemArray[2]}.");
+  Console.WriteLine($"ds[0].dt.Row col0 = {row.ItemArray[0]}, col1 = {row.ItemArray[1]}, col2 = {row.ItemArray[2]}.");
     
 
 
